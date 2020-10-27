@@ -64,7 +64,15 @@
  
 \maketitle{}
 
-Introductory text
+\begin{center}
+  \includegraphics[]{Images/image_0_1_(power_banks).png}
+\end{center}
+
+\vfill
+  
+\includegraphics[]{Images/image_0_2_(license).png} \newline
+This guide is provided under a \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{Creative Commons BY-SA} license: \newline
+Material may be freely shared and adapted under the following terms: You must give appropriate credit, provide a link to the license, and indicate if changes were made, and further distribution must be under the same license as the original.
 
 \newpage
 
@@ -162,8 +170,8 @@ Introductory text
 
     Electrical circuits behave in different ways depending on how they are connected. There are two types of connections: 
       
-      \begin{table}[h!]
-        \centering
+      \begin{table}[!h!]
+   t    \centering
         \begin{tabular}{|| c | c | c | c ||}
           \hline
           \multicolumn{2}{|c|}{Series Circuits}  & \multicolumn{2}{|c|}{Parallel Circuits}  \\
@@ -182,7 +190,11 @@ Introductory text
 
     In parallel connections the voltage will be constant across the appliances and the current will be shared. In terms of power sources (like panels and batteries) this means that the voltage will be constant across the appliances and the current will sum. For power consumers (like appliances) connected in parallel, each appliance will have the full voltage available to it and each will share the total current drawn. So two 12V bulbs in parallel with a 12V battery will light up with a current draw equal to the sum of the two bulbs. Two 6V bulbs in parallel with a 12V battery will more than likely break as each will have 12V supplied to it, double what it requires. 
 
-      TODO INSERT IMAGE
+    \begin{figure}[!ht]
+      \centering
+      \includegraphics[width=0.75\paperwidth]{Images/image_2_1_(parallel_v_series_circuit).png}
+        \caption*{\centering A 12V battery can power two 6V bulbs in series. Three 2V batteries in series can power two 6V bulbs in parallel.}
+    \end{figure}
 
     Electrical appliances are generally designed to work with a specific power supply voltage, so be sure to only connect them in the right way. E.g. - if multiple 12V appliances are being used with a single 12V power supply, they should all be connected in parallel.
   
@@ -263,7 +275,11 @@ Introductory text
 
     Battery chargers designed to be used with lead-acid batteries should never be used to charge lithium batteries. The final stage of charging a lead-acid battery is called the ‘float’ stage, where the charger will ‘trickle’ a small amount of current into the battery to compensate for self-discharge. With a lithium-ion battery, it’s very important that the voltage does not go above 4.2V, and the charge cycle should finish as soon as the battery is 100\% charged.
 
-      TODO INSERT IMAGE
+    \begin{figure}[!ht]
+      \centering
+      \includegraphics[]{Images/image_4_1_(charge_cycle).png}
+      \caption*{\centering Lithium-ion charge cycle}
+    \end{figure}
 
     The nominal voltage of a lithium-ion cell is 3.7V (or sometimes 3.6V), which represents the voltage when the cell is 50\% charged. A fully charged cell should have a voltage of 4.2V. A fully discharged cell should have a voltage of 3V.
 
@@ -289,7 +305,10 @@ Introductory text
 
   The 18650 is the most common type of Lithium-ion cell, so it is a good start for many DIY projects. The 18650 form factor comes from from the diameter of the cell (18mm) and the length of the cell (65mm). 
 
-  TODO INSERT IMAGE
+  \begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.5\paperwidth]{Images/image_5_1_(cell_diagram).png}
+  \end{figure}
 
   \subsection{Where to find second hand 18650 lithium cells} % (fold)
   \label{sub:where_to_find_second_hand_18650_lithium_cells}
@@ -309,7 +328,13 @@ Introductory text
 
     If the battery capacity is shown in Watt-hours (Wh), you can calculate the capacity in mAh by dividing the Wh by the voltage and multiplying by 1000... e.g. 4000mAh = 1000 \(\times\) (44Wh \(\div\) 11.1V)
 
-    TODO INSERT IMAGE
+    % TODO INSERT IMAGE
+
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=0.75\paperwidth]{Images/image_5_2_(battery_configuration).png}
+      \caption*{\centering Typical 6 cell laptop battery internal configuration}
+    \end{figure}
 
     Because the cells that will be recovered are likely to have been used a lot, their actual capacity will be lower than that specified on the laptop battery. There is very little way of knowing how good the cells inside a laptop battery are without taking the battery apart, removing the cells, and testing them.
   
@@ -324,11 +349,22 @@ Introductory text
 
     Once the case is opened, you can remove the lithium cells and the circuit board. You can then seperate cells into pairs or individual cells by cutting the nickel strips that connect the cells together. Before cutting any wires, identify the positive and negative sides of every cell - be sure to use any metal cutting tools on wires that won’t create a short circuit between any of the cells.
 
+    \begin{figure}[!ht]
+      \centering
+      \includegraphics[width=0.75\paperwidth]{Images/image_5_3_(battery_disassembly).png}
+    \end{figure}
+
     Any cells with damaged sleeves should be put to one side and disposed of safely or repaired with non-conductive electrical tape.
 
     Cells connected in pairs (or threes) should be kept together as much as possible, if they are to be used in a 2-cell or 4-cell USB power bank. Cut away the nickel strips connecting cells together, making sure to trim any sharp edges that might be left from where the nickel strip has been spot welded to the cell.
 
     Once the cells are separated and any excess tape, glue, etc is removed, you can attempt to identify them. You should be able to determine the brand (Panasonic, Samsung, LG and Sony are good brands to look for), and possibly their rated capacity. Since lithium-ion cells are not consumer items, they are unlikely to be labelled with much information about their technical specifications, but any identifying codes printed on the cells can be looked up online. Weigh the cells - good quality cells will weigh more than poorer cells. Their weight should be at least 40g.
+
+    \begin{figure}[!ht]
+      \centering
+      \includegraphics[width=0.4\paperwidth]{Images/image_5_4_(samsung_lg_cells).png}
+      \caption*{\centering A selection of 18650 cells - Samsung on the left, and LG on the right}
+    \end{figure}
 
   % subsection how_to_safely_recover_18650_lithium_ion_cells_from_a_laptop_battery (end)
 
@@ -343,6 +379,11 @@ Introductory text
 
     Cells with a voltage over 3V (or a little under 3V) are within their normal operating voltage, so should be good to use straight away. Cells with a voltage under 2V should not be used. Cells with a voltage between 2V and 3V will need to be charged with a lithium cell charger (e.g. a Nitecore i4) and then left for at least 24 hours to measure their ability to hold a charge before they can be used in a power bank.
 
+    \begin{figure}[!ht]
+      \centering
+      \includegraphics[width=0.75\paperwidth]{Images/image_5_5_(flowchart).png}
+    \end{figure}
+
     To find out the actual capacity (in milli-Amp-hours, or mAh) of any used lithium cells, they will need to be put through a full charge-discharge cycle, to measure the capacity they provide on a full discharge. You can do this using a dedicated capacity tester (such as an iMax B6), or by putting the cells in a power bank and measuring the discharge capacity in mAh using a USB voltage tester or a USB load tester.
   
   % subsection how_to_test_18650_cells (end)
@@ -356,7 +397,11 @@ Introductory text
 
   While bigger power banks allow for more storage capacity, they will take up more space and weigh more, so you should consider how portable you need it to be, how much storage you would need from a power bank, and how often it will be used. Also, cases that have an indicator to show the battery charge level are much more useful than those that don’t. 
 
-  TODO INSERT IMAGE
+  \begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.35\paperwidth]{Images/image_6_1_(power_bank_diagram).png}
+    \includegraphics[width=0.30\paperwidth]{Images/image_6_2_(power_bank).png}
+  \end{figure}
 
   Some cases require cells to be soldered together with metal strips along the positive and negative end of the cells. If cells have to be soldered, it is best to do it as quickly as possible to minimise damage to the cells. Use a large, powerful soldering iron that can provide much more thermal capacity - the more thermal capacity in your soldering iron, the less time it will take to solder each connection. Another option for connecting cells together is to spot-weld the connections onto the cells. Spot welding is the method that lithium battery manufacturers use, but it can be harder to DIY. 
 
