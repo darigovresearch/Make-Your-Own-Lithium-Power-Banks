@@ -162,7 +162,19 @@ Introductory text
 
     Electrical circuits behave in different ways depending on how they are connected. There are two types of connections: 
       
-      TODO INSERT IMAGE
+      \begin{table}[h!]
+        \centering
+        \begin{tabular}{|| c | c | c | c ||}
+          \hline
+          \multicolumn{2}{|c|}{Series Circuits}  & \multicolumn{2}{|c|}{Parallel Circuits}  \\
+          \hline \hline
+          Connect & $+ \rightarrow -$ & Connect & $+ \rightarrow +$ \\
+          \hline
+          Connect & $- \rightarrow +$ & Connect & $- \rightarrow -$ \\
+          \hline
+        \end{tabular}
+        \label{table:two_types_of_connections}
+      \end{table}
 
     Two components connected in series will each have their own voltage while the current will be the same through both. In terms of power sources (like panels and batteries) this means that the voltage will sum across components connected in series while the current will stay constant. 
 
