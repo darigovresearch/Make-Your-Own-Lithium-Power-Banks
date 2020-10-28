@@ -13,7 +13,15 @@ Please note the modifications which have been made & where you can find updates.
 Feel free to share the PDFs and give the repository a star so more people are likely to see this work and can get the most out of it.
 
 ## Usage
-If you're just looking for the content, find the relevant PDF file in your language by navigating the folder structure above and click the download button. If you're looking for the source it is. To build these PDFs we have been using Sublime Text with a LaTeX addon to help build it faster, better and more accurately than with other tools but you can use whatever works best for you.
+If you're just looking for the content, find the relevant PDF file in your language in the table below or by navigating the folder structure above and click the download button. If you're looking for the source it is. To build these PDFs we have been using Sublime Text with a LaTeX addon to help build it faster, better and more accurately than with other tools but you can use whatever works best for you.
+
+| Language code | Language | Title | Status | Preview | Download |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| `en`  | English  | Make Your Own Lithium Power Banks | Text Complete, to adjust layout | [here](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/blob/main/en/en_make_your_own_lithium_power_banks.pdf) | [here](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/raw/main/en/en_make_your_own_lithium_power_banks.pdf) |
+| `es`  | Spanish  | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/16) | [Pending Translation, want to help?](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/16) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/16) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/16) |
+| `fr`  | French  | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/14) | [Pending Translation, want to help?](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/14) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/14) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/14) |
+| `it`  | Italian  | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/15) | [Pending Translation, want to help?](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/15) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/15) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/15) |
+| `sh`  | Serbo-Croatian  | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) | [Pending Translation, want to help?](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) |
 
 ## Potential Improvements Yet to be Made
 1. To find a way to systematically pull the content if there are any updates from the original source in the future.
