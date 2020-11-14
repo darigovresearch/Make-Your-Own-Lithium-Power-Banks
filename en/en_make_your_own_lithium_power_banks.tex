@@ -17,6 +17,9 @@
 % import for resuming enumerated list
 \usepackage{enumitem}
 
+% colour import
+\usepackage[dvipsnames]{xcolor}
+
 % code to remove numbering but keep the contents page filled
 \setcounter{secnumdepth}{0}
 
@@ -88,17 +91,17 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 \newpage
 
-\section{Preface} % (fold)
+{\color{blue}\section{Preface}} % (fold)
 \label{sec:preface}
 
-  \subsection*{Introduction} % (fold)
+  {\color{blue}\subsection*{Introduction}} % (fold)
   \label{sub:introduction}
   
     This PDF has taken the content of the \href{https://www.demandenergyequality.org/make-your-own-power-banks}{"Make Your Own Lithium Power Banks"} PDF and put them into a form which can be easily corrected, improved and translated by the community using LaTeX a markdown language for technical topics.
 
   % subsection introduction (end)
 
-  \subsection*{Notes} % (fold)
+  {\color{blue}\subsection*{Notes}} % (fold)
   \label{sub:notes}
 
     Please note the modifications which have been made \& where you can find updates.
@@ -113,7 +116,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   % subsection notes (end)
 
-  \subsection*{License} % (fold)
+  {\color{blue}\subsection*{License}} % (fold)
   \label{sub:license}
 
     Unless otherwise specified, everything in this PDF is covered by the following licence:
@@ -130,10 +133,10 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 \newpage
 
-\section{Introduction} % (fold)
+{\color{blue}\section{Introduction}} % (fold)
 \label{sec:introduction}
 
-  \subsection{The Demand Energy Equality project} % (fold)
+  {\color{blue}\subsection{The Demand Energy Equality project}} % (fold)
   \label{sub:the_demand_energy_equality_project}
 
     Demand Energy Equality (DEE) is a UK based community energy project that seeks to provide practical energy education using solar photovoltaics. We are a group working for systemic change in the way energy is produced, distributed, controlled, delivered and used. These aims are within the context of rising energy inequality (in the UK, at least), rising fuel bills, climate change and the increasing cost of fossil fuel extraction. See \href{https://www.demandenergyequality.org/about/}{our website} to find out more about the project.
@@ -142,7 +145,7 @@ Material may be freely shared and adapted under the following terms: You must gi
   
   % subsection the_demand_energy_equality_project (end)
   
-  \subsection{Using this guide} % (fold)
+  {\color{blue}\subsection{Using this guide}} % (fold)
   \label{sub:using_this_guide}
 
     This written guide explains the concepts and techniques involved in making small USB power packs using recovered lithium-ion battery cells. It assumes no prior knowledge of any kind relevant to completing a fully working project. The guide is designed to act as a learning aid for participants on the ‘Make Your Own Lithium Power Bank’ workshops run by Demand Energy Equality, and can be used alongside other DIY guides and resources provided by DEE. 
@@ -159,7 +162,7 @@ Material may be freely shared and adapted under the following terms: You must gi
   
   % subsection using_this_guide (end)
   
-  \subsection{Disclaimer} % (fold)
+  {\color{blue}\subsection{Disclaimer}} % (fold)
   \label{sub:disclaimer}
 
     This guide is for general guidance only and whilst every effort is made to ensure that the information it contains is correct, it should not be relied upon as accurate. The information / advice contained within this guide is intended for use within the UK only and by persons of no less than 18 years of age. Use this guide at your own risk.
@@ -172,10 +175,10 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section introduction (end)
 
-\section{Basic concepts} % (fold)
+{\color{blue}\section{Basic concepts}} % (fold)
 \label{sec:basic_concepts}
   
-  \subsection{Power consumption} % (fold)
+  {\color{blue}\subsection{Power consumption}} % (fold)
   \label{sub:power_consumption}
 
     \textit{Power} is a measure of work done in any instant, measured in watts (W). You'll typically find a value of the number of watts an appliance needs to operate written on the outer case or on the adaptor that plugs into the wall socket. The power consumed when charging a smart phone, for example, is commonly around 6 watts. This is the measurement that tells you how much power you actually need to deliver for every moment that the appliance is in operation. To measure the overall work done by an appliance, you need to introduce time to the equation. The unit that is generally used to measure this in electrical systems is watt hours (Wh), which is a measurement of energy. Energy is directly related to power and time using the equation: 
@@ -188,14 +191,14 @@ Material may be freely shared and adapted under the following terms: You must gi
   
   % subsection power_consumption (end)
 
-  \subsection{Voltage} % (fold)
+  {\color{blue}\subsection{Voltage}} % (fold)
   \label{sub:voltage}
 
     \textit{Voltage} is the potential to do work. It is measured in volts (V). Imagining electricity like a flow of water turning a water wheel, the voltage is like the height of the flow of water flowing into the water wheel. If the voltage is too low the water will just flow underneath the water wheel and the water wheel won't turn. A higher voltage will turn the wheel effectively. A voltage too high could be damaging to the water wheel. In the same way a voltage too high for an appliance will damage the appliance.
   
   % subsection voltage (end)
 
-  \subsection{Current} % (fold)
+  {\color{blue}\subsection{Current}} % (fold)
   \label{sub:current}
 
     \textit{Current} is the flow of electricity and is measured in amps (A). Using the same flow of water analogy current is the amount of water flowing. More flow allows the water wheel to turn faster, less flow makes it turn slower. For electrical systems, power is directly related to voltage and current using the equation:
@@ -208,14 +211,14 @@ Material may be freely shared and adapted under the following terms: You must gi
   
   % subsection current (end)
 
-  \subsection{Resistance} % (fold)
+  {\color{blue}\subsection{Resistance}} % (fold)
   \label{sub:resistance}
 
     \textit{Resistance} reduces the flow of electricity through a wire or component. It is a bit like forcing the water from our analogy to travel through a canyon filled with rapids. Relative to the same amount of water flowing through a smooth channel, the ability to deliver power at the other end will be reduced. All components and wires have an internal resistance that converts some of the electricity you are supplying into heat without doing any useful work. This is something we want to minimise in our systems. 
   
   % subsection resistance (end)
 
-  \subsection{Series and parallel circuits} % (fold)
+  {\color{blue}\subsection{Series and parallel circuits}} % (fold)
   \label{sub:series_and_parallel_circuits}
 
     Electrical circuits behave in different ways depending on how they are connected. There are two types of connections: 
@@ -250,7 +253,7 @@ Material may be freely shared and adapted under the following terms: You must gi
   
   % subsection series_and_parallel_circuits (end)
 
-  \subsection{Battery capacity} % (fold)
+  {\color{blue}\subsection{Battery capacity}} % (fold)
   \label{sub:battery_capacity}
 
     To use a battery effectively, we need to know how much energy it can store. This is known as battery capacity, and is measured in Amp-hours (Ah). For small batteries you will usually see the capacity measured in milli-Amp-hours (mAh) - 1 Ah is 1000 mAh. This gives an indication of the battery’s capacity to deliver current over time. In theory a 6Ah battery could deliver 1A for 6 hours or 6A for 1 hours, although the more current is being drawn, the less capacity the battery will be able to deliver. 
@@ -261,7 +264,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section basic_concepts (end)
 
-\section{Risks and dangers of lithium-ion batteries} % (fold)
+{\color{blue}\section{Risks and dangers of lithium-ion batteries}} % (fold)
 \label{sec:risks_and_dangers_of_lithium_ion_batteries}
 
   Warning - proceed at your own risk. The electrolyte used in lithium-ion cells is extremely reactive, and extreme care must be taken when using them for DIY projects.
@@ -270,7 +273,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   Lithium-ion cells in storage should be kept cool, and ideally not fully charged
 
-  \subsection{Minimising the risk of lithium-ion battery fires} % (fold)
+  {\color{blue}\subsection{Minimising the risk of lithium-ion battery fires}} % (fold)
   \label{sub:minimising_the_risk_of_lithium_ion_battery_fires}
   
     Most lithium-ion cells have low thermal stability, especially the types commonly found in phones and laptops. Thermal stability can be compromised further when fully charged (4.2V) or being charged at high currents (above 1C). Heat can be very damaging to the lifespan of a lithium-ion cell, and in the worst cases can cause thermal runaway, which leads to the electrolyte in the cell catching fire.
@@ -287,7 +290,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section risks_and_dangers_of_lithium_ion_batteries (end)
 
-\section{What are lithium-ion battery cells?} % (fold)
+{\color{blue}\section{What are lithium-ion battery cells?}} % (fold)
 \label{sec:what_are_lithium_ion_battery_cells}
 
   The use of lithium-ion batteries has been increasingly common since the late 1990s. For their size and weight they can store a relatively large amount of energy and are very reliable, but compared to other batteries such as lead-acid and nickel-metal-hydride they are expensive and more complicated to use. Their use has diversified and evolved over time resulting in a range of different lithium-ion chemistries that specialise in capacity, power and longevity. They can be found in mobile phones, laptops, rechargeable torches, cordless power tools, electric vehicles, and many other appliances. 
@@ -296,7 +299,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   The ‘swiss roll’ of a cylindrical cell is housed within a durable steel container that prevents the reactive elements inside the cell being exposed, and protects the cell from damage. The end caps on these cells include safety features such as vents that allow any gases that might build up inside the cell to escape. Flat cells are usually contained in a sealed pouch that can expand to contain any gases that might build up inside the cell. 
 
-  \subsection{Comparing Lead-acid and Lithium batteries} % (fold)
+  {\color{blue}\subsection{Comparing Lead-acid and Lithium batteries}} % (fold)
   \label{sub:comparing_lead_acid_and_lithium_batteries}
 
     Lithium-ion (Li-ion) batteries have several advantages over conventional lead-acid batteries:
@@ -320,7 +323,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   % subsection comparing_lead_acid_and_lithium_batteries (end)
 
-  \subsection{Lithium-ion charging} % (fold)
+  {\color{blue}\subsection{Lithium-ion charging}} % (fold)
   \label{sub:lithium_ion_charging}
 
     Battery chargers designed to be used with lead-acid batteries should never be used to charge lithium batteries. The final stage of charging a lead-acid battery is called the ‘float’ stage, where the charger will ‘trickle’ a small amount of current into the battery to compensate for self-discharge. With a lithium-ion battery, it’s very important that the voltage does not go above 4.2V, and the charge cycle should finish as soon as the battery is 100\% charged.
@@ -335,7 +338,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   % subsection lithium_ion_charging (end)
 
-  \subsection{Caring for lithium-ion batteries} % (fold)
+  {\color{blue}\subsection{Caring for lithium-ion batteries}} % (fold)
   \label{sub:caring_for_lithium_ion_batteries}
 
     \textbf{Don’t overheat.} Lithium-ion cells can easily be damaged when subject to high temperatures - anything over 40 degrees should be avoided if possible. This can happen when the battery is being charged or discharged with high currents, which will generate additional heat.
@@ -350,7 +353,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section what_are_lithium_ion_battery_cells_ (end)
 
-\section{Collecting 18650 cells} % (fold)
+{\color{blue}\section{Collecting 18650 cells}} % (fold)
 \label{sec:collecting_18650_cells}
 
   The 18650 is the most common type of Lithium-ion cell, so it is a good start for many DIY projects. The 18650 form factor comes from from the diameter of the cell (18mm) and the length of the cell (65mm). 
@@ -360,14 +363,14 @@ Material may be freely shared and adapted under the following terms: You must gi
     \includegraphics[width=0.5\paperwidth]{Images/image_5_1_(cell_diagram).png}
   \end{figure}
 
-  \subsection{Where to find second hand 18650 lithium cells} % (fold)
+  {\color{blue}\subsection{Where to find second hand 18650 lithium cells}} % (fold)
   \label{sub:where_to_find_second_hand_18650_lithium_cells}
 
     For this guide, we will focus on recovering cells from laptop batteries. Old laptop batteries are regularly disposed of, so are waste items that are relatively easy to get hold of. Cordless power tool battery packs also have 18650 cells, but these may be a different chemistry to those found in laptop batteries, so check before using them. Newer batteries are more likely to have good cells - lithium-ion cells will self-discharge if left unused, so the cells in old batteries that haven’t been used for over a year are more likely to be discharged to the point where they can’t be recovered.
 
   % subsection where_to_find_second_hand_18650_lithium_cells (end)
 
-  \subsection{18650 cell configurations} % (fold)
+  {\color{blue}\subsection{18650 cell configurations}} % (fold)
   \label{sub:18650_cell_configurations}
 
     A laptop battery pack will have inside it several 18650 lithium-ion cells connected together, along with a battery management system (BMS) circuit board. You can get a good idea of the number and configuration of cells inside a battery pack by checking the voltage and capacity. 
@@ -388,7 +391,7 @@ Material may be freely shared and adapted under the following terms: You must gi
   
   % subsection 18650_cell_configurations (end)
 
-  \subsection{How to safely recover 18650 lithium-ion cells from a laptop battery} % (fold)
+  {\color{blue}\subsection{How to safely recover 18650 lithium-ion cells from a laptop battery}} % (fold)
   \label{sub:how_to_safely_recover_18650_lithium_ion_cells_from_a_laptop_battery}
   
     Risk warning - take extreme care not to short circuit lithium cells when removing them from laptop battery cases. 
@@ -416,7 +419,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   % subsection how_to_safely_recover_18650_lithium_ion_cells_from_a_laptop_battery (end)
 
-  \subsection{How to test 18650 cells} % (fold)
+  {\color{blue}\subsection{How to test 18650 cells}} % (fold)
   \label{sub:how_to_test_18650_cells}
 
     Risk warning - never use lithium-ion cells that have not been tested.
@@ -438,7 +441,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section collecting_18650_cells_ (end)
 
-\section{Building a USB power bank} % (fold)
+{\color{blue}\section{Building a USB power bank}} % (fold)
 \label{sec:building_a_usb_power_bank}
 
   USB power bank cases that will take 18650 cells without needing to do any soldering or complicated electrical work are fairly easy to find. These are good to use because once you have a collection of tested 18650 cells, you can simply slot them into the cases. Power bank case models that hold different quantities of cells are available - from single cell power banks up to 8 cell power banks. Adding more cells in parallel will increase the overall capacity of the power bank - an 8-cell power bank will store 8 times the energy of a single-cell power bank (assuming the cells are identical). Having multiple cells in parallel will mean that the load on each cell is shared evenly, so they should not become imbalanced the way cells in series will. Multiple cells in parallel will each be doing less work than a single cell for the same load, so they should last much longer. 
@@ -459,7 +462,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section building_a_usb_power_bank (end)
 
-\section{Building a bigger battery pack} % (fold)
+{\color{blue}\section{Building a bigger battery pack}} % (fold)
 \label{sec:building_a_bigger_battery_pack}
 
   A lithium battery pack to be used in higher voltage systems will need to be made up of several cells connected in series. Three lithium-ion cells with a nominal voltage of 3.7V connected in series will have an overall nominal voltage of 11.1V, and 12.6V when fully charged, so can feasibly be used in a 12V system. Seven lithium-ion cells in series will have a nominal voltage of 25.9V and a max voltage of 29.4V, which makes it a good option for 24V systems. It is essential to use a battery management system (BMS) that can keep the individual cells balanced, to avoid individual cells becoming overcharged or undercharged when they are subjected to charge-discharge cycles. It is also essential to ensure that the cells used have similar capacities, which will require a more thorough testing process if using used cells than that described above for making USB power banks. 
@@ -472,7 +475,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section building_a_bigger_battery_pack (end)
 
-\section{Lithium battery chemistries, applications and form factors} % (fold)
+{\color{blue}\section{Lithium battery chemistries, applications and form factors}} % (fold)
 \label{sec:lithium_battery_chemistries_applications_and_form_factors}
   
   \textbf{Lithium Cobalt Oxide (LCO) -} a very common battery chemistry, used for batteries in phones and laptops and other small portable devices. They have a relatively short life span, low thermal stability and limited power capacity, but have a high energy density and are relatively cheap to make.
@@ -487,7 +490,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section lithium_battery_chemistries_applications_and_form_factors (end)
 
-\section{Resources} % (fold)
+{\color{blue}\section{Resources}} % (fold)
 \label{sec:resources}
 
   \subsection{Useful Information On Lithium Cells} % (fold)
@@ -544,10 +547,10 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 \newpage
 
-\section{Appendix} % (fold)
+{\color{blue}\section{Appendix}} % (fold)
 \label{sec:appendix}
 
-  \subsection{Equipment list} % (fold)
+  {\color{blue}\subsection{Equipment list}} % (fold)
   \label{sub:equipment_list}
 
     \subsubsection*{Tools} % (fold)
@@ -582,7 +585,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   % subsection equipment_list (end)
 
-  \subsection{Using a multimeter} % (fold)
+  {\color{blue}\subsection{Using a multimeter}} % (fold)
   \label{sub:using_a_multimeter}
   
     \begin{figure}[!ht]
