@@ -27,6 +27,8 @@ The original file can be previewed [here](https://github.com/darigovresearch/Mak
 | `ru`  | Russian  | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/22) | [Pending Translation, want to help?](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/22) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/22) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/22) |
 | `sh`  | Serbo-Croatian  | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) | [Pending Translation, want to help?](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) | [TODO](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/issues/17) |
 
+We have also been experimenting with a [sphinx-based](https://www.sphinx-doc.org/en/master/) version [at this URL](https://darigovresearch.github.io/Make-Your-Own-Lithium-Power-Banks/) which may end up being easier to convert to offline pdfs & a more interactive site.
+
 ## Potential Improvements Yet to be Made
 1. To find a way to systematically pull the content if there are any updates from the original source in the future.
     - Currently this was all done manually.
