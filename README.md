@@ -13,7 +13,7 @@ Please note the modifications which have been made & where you can find updates.
 Feel free to share the PDFs and give the repository a star so more people are likely to see this work and can get the most out of it.
 
 ## Usage
-If you're just looking for the content, find the relevant PDF file in your language in the table below or by navigating the folder structure above and click the download button. If you're looking for the source it is. To build these PDFs we have been using Sublime Text with a LaTeX addon to help build it faster, better and more accurately than with other tools but you can use whatever works best for you.
+If you're just looking for the content, find the relevant PDF file in your language in the table below or by navigating the folder structure above and click the download button. If you're looking for the source it is in the relevant language subfolder of this folder. To build these PDFs we have been using Sublime Text with a LaTeX addon to help build it faster, better and more accurately than with other tools but you can use whatever works best for you.
 
 The original file can be previewed [here](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/blob/main/Original/Make%2Byour%2Bown%2Blithium%2Bpower%2Bbanks.pdf) and downloaded [here](https://github.com/darigovresearch/Make-Your-Own-Lithium-Power-Banks/raw/main/Original/Make%2Byour%2Bown%2Blithium%2Bpower%2Bbanks.pdf)
 
