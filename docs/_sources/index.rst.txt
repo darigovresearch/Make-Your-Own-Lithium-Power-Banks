@@ -10,11 +10,14 @@ Welcome to Make Your Own Lithium Power Banks's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   preface
+   introduction
+   basic_concepts
+   risks_and_dangers_of_lithium-ion_batteries
+   what_are_lithium-ion_battery_cells
+   collecting_18650_cells
+   building_a_usb_power_bank
+   building_a_bigger_battery_pack
+   lithium_battery_chemistries__applications_and_form_factors
+   resources
+   appendix
