@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Make Your Own Lithium Power Banks'
-copyright = '2021, Demand Energy Equality'
+copyright = '2021-2022, Demand Energy Equality'
 author = 'Demand Energy Equality'
 
 # The full version, including alpha/beta/rc tags
