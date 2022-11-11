@@ -1,5 +1,21 @@
 Risks and dangers of lithium-ion batteries
 ==========================================
 
+Warning - proceed at your own risk. The electrolyte used in lithium-ion cells is extremely reactive, and extreme care must be taken when using them for DIY projects.
+
+When charging and discharging lithium-ion cells, be sure not to exceed their rated current. If in doubt, keep charging and discharging currents below 1 Amp per cell in parallel.
+
+Lithium-ion cells in storage should be kept cool, and ideally not fully charged
+
 Minimising the risk of lithium-ion battery fires
 ------------------------------------------------
+
+Most lithium-ion cells have low thermal stability, especially the types commonly found in phones and laptops. Thermal stability can be compromised further when fully charged (4.2V) or being charged at high currents (above 1C). Heat can be very damaging to the lifespan of a lithium-ion cell, and in the worst cases can cause thermal runaway, which leads to the electrolyte in the cell catching fire.
+
+Always protect lithium-ion cells against over voltage. Charging cells at voltages higher than 4.2V can lead to them catching fire.
+
+Working with unprotected lithium-ion cells carries a risk of creating accidental short circuits that can lead to cells catching fire. Always handle them with extreme care, especially when using metal tools close to them. Short-circuiting a cell can lead to it catching fire.
+
+Battery packs made from lithium-ion cells in series should only be charged with a suitable Battery Management System that monitors the voltage of each cell to ensure they remain balanced. If this is not done, cells can become unbalanced, leading to some cells being overcharged, that can result in the battery pack catching fire. 
+
+The internal structure of cells that have been overused or damaged can be affected to the point that they can form internal short circuits. Used cells should only be included in a battery if they have been thoroughly tested. Fusing individual cells in a lithium-ion battery pack can protect against internal short circuits, that would otherwise result in the cells catching fire.
