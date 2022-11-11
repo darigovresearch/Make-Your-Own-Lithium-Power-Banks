@@ -71,7 +71,9 @@ The general process for porting existing translations to make a new language is 
 ## Building the sphinx experiment
 As stated in the readme there is a [sphinx-based](https://www.sphinx-doc.org/en/master/) version [at this URL](https://darigovresearch.github.io/Make-Your-Own-Lithium-Power-Banks/) which may end up being easier to convert to offline pdfs & a more interactive site. After cloning the repository if you wish to edit or make improvements to it, you need to edit the relevant files in the `docs_source` folder and when you want to build it, you run the following command from the root folder of the repository. The output will then be able to be opened locally from the `docs` folder.
 
-`sphinx-build docs_source/source docs`
+```
+sphinx-build docs_source/source docs
+```
 
 ## Style Guidelines
 - Do make sure punctuation is consistent across translations
