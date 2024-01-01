@@ -2,7 +2,7 @@
 name: Language Request template
 about: Issue template if you want to add a new language to the repository.
 title: "[lang-code]: Language Request"
-labels: documentation, enhancement, help wanted, good first issue
+labels: documentation, enhancement, good first issue, help wanted
 assignees: ''
 
 ---
