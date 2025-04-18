@@ -1,13 +1,13 @@
-What are lithium-ion battery cells?
-===================================
-
-Comparing Lead-acid and Lithium batteries
------------------------------------------
+# What are lithium-ion battery cells?
 
 
-Lithium-ion charging
---------------------
+## Comparing Lead-acid and Lithium batteries
 
 
-Caring for lithium-ion batteries
---------------------------------
+
+## Lithium-ion charging
+
+
+
+## Caring for lithium-ion batteries
+
