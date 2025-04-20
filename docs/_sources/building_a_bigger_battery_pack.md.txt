@@ -1,2 +1,9 @@
 # Building a bigger battery pack
 
+A lithium battery pack to be used in higher voltage systems will need to be made up of several cells connected in series. Three lithium-ion cells with a nominal voltage of 3.7V connected in series will have an overall nominal voltage of 11.1V, and 12.6V when fully charged, so can feasibly be used in a 12V system. Seven lithium-ion cells in series will have a nominal voltage of 25.9V and a max voltage of 29.4V, which makes it a good option for 24V systems. It is essential to use a battery management system (BMS) that can keep the individual cells balanced, to avoid individual cells becoming overcharged or undercharged when they are subjected to charge-discharge cycles. It is also essential to ensure that the cells used have similar capacities, which will require a more thorough testing process if using used cells than that described above for making USB power banks. 
+
+While it is possible to build DIY battery packs to use in off grid systems from used 18650 cells connected in series, we do not recommend this unless you have a lot of experience of building off grid systems and working with these kind of cells, since the risks involved are considerable.
+
+If you are looking for lithium batteries to use in 12V renewable energy systems, we would recommend using pre-made lithium battery modules such as those made by TN Power or Victron, which are designed to be ‘drop-in’ replacements for 12V lead-acid batteries. These types of batteries tend to use lithium iron phosphate (LiFePO4) cells, which are much more thermally stable and safer to use than lithium-ion cells.
+
+You can find further information about how to design a basic off grid energy system in our [Intro to Off Grid guide](https://www.demandenergyequality.org/get-started-with-offgrid).
